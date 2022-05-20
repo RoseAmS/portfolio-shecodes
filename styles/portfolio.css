@@ -1,12 +1,12 @@
 :root {
   --primary-color: #fb0066;
-  --secondary-color: #fff5f9;
+  --secondary-color: #fffff9;
   --box-shadow: 6px 6px 12px #dfd3d3, -18px -18px 36px #fceff7;
   --background-gradient: radial-gradient(
     63.17% 84.28% at 34.64% 0%,
-    #ffcceb 0%,
+    #fffceb 0%,
     #ffe5f0 65.1%,
-    #fff5f9 100%
+    #fffff9 100%
   );
   --primary-font-color: #13002b;
   --heading-font-family: "Austen";
@@ -45,9 +45,9 @@ p {
   background-size: auto;
   padding-left: 4rem;
   padding-right: 4rem;
-  min-height: 90vh;
+  min-height: 100vh;
   max-width: 100%;
-  padding-top: 10rem;
+  padding-top: 15rem;
 }
 
 .btn-main {
@@ -61,12 +61,52 @@ p {
   top: -6px;
   padding: 0.85rem 1.45rem;
   transition: 0.2s, box-shadow 0.2s;
+  font-size: 1.1rem;
 }
 
 .btn-main:hover {
   left: 0;
   top: 0;
   box-shadow: 0 0 0 0 var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-dark {
+  color: var(--primary-font-color);
+  border: 2px solid var(--primary-font-color);
+  border-radius: 0.6rem;
+  background-color: var(--secondary-color);
+  box-shadow: 8px 8px 0 0 var(--primary-font-color);
+  position: relative;
+  left: -6px;
+  top: -6px;
+  padding: 0.85rem 1.45rem;
+  transition: 0.2s, box-shadow 0.2s;
+  font-size: 1.1rem;
+}
+
+.btn-dark:hover {
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 0 0 var(--primary-font-color);
+  background-color: var(--secondary-color);
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.projects {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.contact-link {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
   color: var(--primary-color);
 }
 
@@ -80,6 +120,15 @@ p {
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .hero {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .projects {
+    padding: 0;
   }
 }
