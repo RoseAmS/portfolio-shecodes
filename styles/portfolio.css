@@ -8,6 +8,12 @@
     #ffe5f0 65.1%,
     #fffff9 100%
   );
+  --background-cards: linear-gradient(
+    20deg,
+    #ffe5f0 0%,
+    #fffff9 50%,
+    #fffff9 100%
+  );
   --primary-font-color: #13002b;
   --heading-font-family: "Austen";
   --body-font-family: "Atkinson Hyperlegible";
@@ -46,8 +52,7 @@ p {
   padding-left: 4rem;
   padding-right: 4rem;
   min-height: 100vh;
-  max-width: 100%;
-  padding-top: 15rem;
+  padding-top: 23vh;
 }
 
 .btn-main {
@@ -95,8 +100,13 @@ p {
 }
 
 .projects {
-  padding-left: 8rem;
-  padding-right: 8rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.projects-card {
+  box-shadow: 0 4px 3px 0 rgb(0 0 0 / 5%);
+  border-radius: 0.6rem;
 }
 
 .contact-link {
@@ -124,8 +134,8 @@ p {
   }
 
   .hero {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .projects {
