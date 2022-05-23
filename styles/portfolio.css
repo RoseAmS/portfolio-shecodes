@@ -131,6 +131,7 @@ p {
 .rose-pic {
   margin: 0 auto;
   padding: 0;
+  width: 400px;
 }
 
 @media (max-width: 576px) {
@@ -161,5 +162,12 @@ p {
 
   .rose-pic {
     width: 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .rose-info {
+    display: block;
+    width: 100%;
   }
 }
