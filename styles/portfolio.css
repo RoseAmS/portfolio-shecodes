@@ -120,6 +120,19 @@ p {
   color: var(--primary-color);
 }
 
+.secondary-hero {
+  padding-top: 23vh;
+}
+
+.secondary-title {
+  font-size: 2.7rem;
+}
+
+.rose-pic {
+  margin: 0 auto;
+  padding: 0;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 3rem;
@@ -140,5 +153,13 @@ p {
 
   .projects {
     padding: 0;
+  }
+
+  .secondary-title {
+    font-size: 2.2rem;
+  }
+
+  .rose-pic {
+    width: 300px;
   }
 }
