@@ -134,6 +134,16 @@ p {
   width: 400px;
 }
 
+.skillset {
+  margin-right: 0.5rem;
+}
+
+.footer-info {
+  margin-top: 10rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 3rem;
@@ -169,5 +179,12 @@ p {
   .rose-info {
     display: block;
     width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .skillset-details {
+    display: block;
+    width: 50%;
   }
 }
