@@ -34,8 +34,78 @@
     <link rel="stylesheet" href="/styles/portfolio.css" />
 
     <title>About me - Rosa Aminta Salazar</title>
+    <meta
+      name="description"
+      content="About Rosa Aminta Salazar, a front-end developer based in Latin America, serving the whole world in 3 languages. Contact her for job inquiries"
+    />
   </head>
   <body>
+    <!-- Navigation bar -->
+    <nav
+      class="navbar fixed-top navbar-expand-md navbar-light navbar-rose"
+      id="navbar"
+    >
+      <!-- Logo & Toggler -->
+      <div class="container">
+        <a class="navbar-brand" href="/" title="Homepage">
+          <img src="/images/LogoRA.png" alt="Rosa Aminta" width="18%" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links other pages -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link inactive-link"
+                aria-current="page"
+                href="/"
+                title="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="/about.html"
+                title="About Rosa Aminta"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link inactive-link"
+                href="/work.html"
+                title="Rosa Aminta's Projects"
+                >My Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link inactive-link"
+                href="/contact.html"
+                title="Contact Rosa Aminta"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main info -->
     <div class="secondary-hero">
       <div class="row m-3 projects">
         <div class="col-md-4 pt-3 pe-4 pb-5 rose-info">
@@ -81,6 +151,7 @@
       </div>
     </div>
 
+    <!-- Skillset -->
     <div class="projects m-4">
       <h2 class="fw-bold mb-4">My Skillset</h2>
 
@@ -223,6 +294,7 @@
       </div>
     </div>
 
+    <!-- Footer -->
     <div class="projects footer-info">
       <p>
         Coded by
@@ -235,5 +307,6 @@
         >® 2022
       </p>
     </div>
+    <script src="/scripts/app.js"></script>
   </body>
 </html>

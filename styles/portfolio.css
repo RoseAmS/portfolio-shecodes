@@ -19,6 +19,11 @@
   --body-font-family: "Atkinson Hyperlegible";
 }
 
+.navbar {
+  position: fixed;
+  transition: 0.5s;
+}
+
 body {
   background-color: var(--secondary-color);
   color: var(--primary-font-color);
@@ -44,6 +49,23 @@ h3 {
 
 p {
   font-size: 1.1rem;
+}
+
+.navbar-nav li {
+  padding-right: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--primary-color);
+}
+
+.nav-link {
+  color: var(--primary-font-color);
+}
+
+.inactive-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
 }
 
 .hero {
