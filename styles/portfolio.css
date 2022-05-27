@@ -51,6 +51,14 @@ p {
   font-size: 1.1rem;
 }
 
+footer {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-top: 10rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
 .navbar-nav li {
   padding-right: 1rem;
 }
@@ -142,6 +150,21 @@ p {
   color: var(--primary-color);
 }
 
+.social-links a {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  border-radius: 50%;
+  font-size: 1.4rem;
+  margin: 0 1rem;
+  padding: 10px 15px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
 .secondary-hero {
   padding-top: 23vh;
 }
@@ -158,12 +181,6 @@ p {
 
 .skillset {
   margin-right: 0.5rem;
-}
-
-.footer-info {
-  margin-top: 10rem;
-  margin-left: 1rem;
-  margin-bottom: 1.5rem;
 }
 
 @media (max-width: 576px) {
